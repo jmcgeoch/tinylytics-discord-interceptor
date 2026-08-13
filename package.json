@@ -1,0 +1,14 @@
+{
+  "name": "tinylytics-discord-interceptor",
+  "version": "1.0.0",
+  "description": "Intercepts and formats Tinylytics webhooks for Discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "express": "^4.19.0"
+  }
+}
+
