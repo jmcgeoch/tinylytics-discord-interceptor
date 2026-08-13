@@ -7,7 +7,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 3000;
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
 
-app.post("tinylytics-discord-interceptor-production.up.railway.app", async (req, res) => {
+app.post("/", async (req, res) => {
     // Tinylytics passes the event type in this header
     const eventType = req.headers["x-tinylytics-event"] || "unknown";
     const data = req.body;
