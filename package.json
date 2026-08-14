@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Intercepts and formats Tinylytics webhooks for Discord",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "start": "node index.js"
   },
